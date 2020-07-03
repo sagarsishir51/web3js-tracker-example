@@ -34,7 +34,8 @@ function watchEtherTransfers() {
         confirmEtherTransaction(txHash)
 
         // Unsubscribe from pending transactions.
-        subscription.unsubscribe()
+        //subscription.unsubscribe()
+        //console.log("unsubscribe")
       }
       catch (error) {
         console.log(error)
